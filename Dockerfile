@@ -16,6 +16,6 @@ RUN /bin/gopm bin -d '/bin' -u   golang.org/x/tools/cmd/goimports
 RUN /bin/gopm bin -d '/bin' -u   github.com/npat-efault/godef
 RUN /bin/gopm bin -d '/bin' -u   golang.org/x/tools/cmd/oracle
 RUN /bin/gopm bin -d '/bin' -u   golang.org/x/tools/cmd/gorename
-RUN /bin/gopm bin -d '/bin' -u   github.com/golang/lint/golint
+RUN /bin/gopm bin -d '/bin' -u   github.com/golang/lint
 RUN /bin/gopm bin -d '/bin' -u   github.com/kisielk/errcheck
 RUN /bin/gopm bin -d '/bin' -u   github.com/jstemmer/gotags
