@@ -9,3 +9,6 @@ MAINTAINER Guyschaos <guyschaos@gmail.com>
 ADD ./gopm /bin/gopm
  
 RUN chmod +x /bin/gopm
+
+RUN rm -rf /root/.vim/bundle/vim-go
+RUN git clone --depth=1 https://github.com/guyschaos/vim-go.git /root/.vim/bundle/vim-go
